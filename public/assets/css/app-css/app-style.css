@@ -1,0 +1,491 @@
+/* 
+        .bg1 {
+            
+            background-color: #DADADA;
+        }
+        .bg-home {
+            background-image: var(--bg-home);
+            background-size: cover; 
+            background-position: center center; 
+            background-repeat: no-repeat; 
+            height: 300px; 
+            width: 100%;
+        }
+        
+        .bg-img-head {
+            background-image: var(--bg-img-head);
+            background-size: cover; 
+            background-position: center center; 
+            background-repeat: no-repeat; 
+            height: 300px; 
+            width: 100%; 
+        }
+        
+        .bg-img-dept {
+            background-image: var(--bg-img-dept);
+            background-size: cover; 
+            background-position: center center; 
+            background-repeat: no-repeat; 
+            height: 300px; 
+            width: 100%; 
+        }
+        
+        .bg-my-appoint {
+            background-image: var(--bg-my-appoint);
+            background-size: cover; 
+            background-position: center center; 
+            background-repeat: no-repeat; 
+            height: 300px; 
+            width: 100%; 
+        }
+        
+
+        .bg-img-medical {
+            background-image: var(--bg-my-medical);
+            background-size: cover; 
+            background-position: center center; 
+            background-repeat: no-repeat; 
+            height: 300px; 
+            width: 100%; 
+        }
+
+        .row-space{
+            padding: 100px 30px;
+        }
+        .row-radius {
+            border-radius: 0 0 35px 35px;
+        }
+        .shadow-box {
+            box-shadow: 0 2px 5px rgba(5, 120, 214, 0.664); 
+        }
+
+        .row-radius1 {
+            border-radius: 0 0 0 55%;
+        }
+
+        .section-bg{
+            background-color: #f8f8f8;
+        }
+        .text-darkblue{
+            color: #1F7BBB;
+        }
+
+        .text-gray{
+            color: #cccccc;
+        }
+        .icon-size{
+            font-size: 35px;
+        }
+        .span-txt{
+            font-size: 12px;
+           
+        }
+
+        .foot-icon{
+            font-size: 16px;
+        }
+
+        .active {
+            color: #1F7BBB;;
+            
+        }
+
+        .icon-header{
+            font-size: 125px;
+            color: #1F7BBB;
+        }
+
+
+        .coming-soon-ribbon {
+            position: absolute; 
+            top: 15px;
+            right: -40px; 
+            background-color: red; 
+            color: white;
+            padding: 3px 5px; 
+            transform: rotate(45deg);
+            width: 150px; 
+            text-align: center; 
+            font-weight: bold; 
+            z-index: 2; 
+            font-size: 10px;
+            
+        }
+
+
+
+       
+        .appointment-form {
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 50px 30px 100px 30px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form-header h2 {
+            font-weight: bold;
+        }
+
+        .blue{
+            color: #233890;
+        }
+        .bg-blue{
+            background-color: #233890;
+        }
+ 
+        
+        .icon-size{
+            font-size: 35px;
+        }
+
+        .icon-size-footer{
+            font-size: 20px;
+        }
+
+        
+
+        .custom-bg{
+            background-color: #F9F9F9;
+        }
+        .h6-txt{
+            font-size: 12px;
+        }
+        .span-txt{
+            font-size: 10px;
+        }
+
+        .footer {
+            padding: 20px 0; 
+            
+        }
+        .h6-txt{
+            font-size: 14px !important;
+        }
+
+        .emergency-button {
+            background-color: red; 
+            color: white; 
+            border: none; 
+            font-size: 32px; 
+            border-radius: 50%; 
+            cursor: pointer; 
+            animation: blink 1s infinite; 
+            position: absolute;
+            bottom: 20px; 
+            left: 50%; 
+            transform: translateX(-50%); 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            width: 100px; 
+            height: 100px; 
+        }
+
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+
+
+   
+         */
+
+
+
+       
+body {
+  background-color: #ffffff;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.top-bar {
+  background-color: #ffffff;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #dee2e6;
+  position: relative;
+  z-index: 1001;
+}
+
+.language-btn, .login-btn {
+  background-color: #f1f1f1;
+  border-radius: 20px;
+  padding: 0.25rem 0.75rem;
+  font-size: 14px;
+  border: none;
+  color: #00AAE7;
+}
+
+.logo-section {
+  text-align: center;
+  padding: 1rem;
+}
+
+.logo-section img {
+  width: 180px;
+}
+
+.profile-card, .service-card {
+  background-color: #fff7f7;
+  border-radius: 15px;
+  padding: 1rem;
+  margin: 0.75rem 1rem;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.03);
+}
+
+.bottom-nav {
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #ffffff;
+      border-top: 1px solid #ddd;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 60px;
+      z-index: 1000;
+      position: fixed;
+    }
+
+    .bottom-nav .nav-item {
+      flex: 1;
+      padding-top: 10px;
+      color: #888;
+    }
+
+   
+
+    .center-button {
+      position: absolute;
+      top: -30px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #00AAE7;
+      border-radius: 50%;
+      padding: 5px;
+      z-index: 20;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .center-button img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+.icon-box {
+    width: 60px;
+    height: 60px;
+    border: 1.5px solid #00AAE7;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon-box i {
+    font-size: 20px;
+    color: #00AAE7;
+  }
+  .icon-label {
+    font-size: 13px;
+    margin-top: 6px;
+    text-align: center;
+  }
+
+.profile-img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #00AAE7;
+  padding: 5px;
+}
+
+.icon-wrapper {
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+.icon-img {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 3px;
+}
+
+/* Icon Colors */
+.text-primary, .text-success, .text-danger, .text-warning, .text-info {
+  color: #00AAE7 !important;
+}
+
+/* Sidebar Styles */
+#sidebar-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  background-color: #ffffff;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  overflow-y: auto;
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-in-out;
+  z-index: 1002;
+}
+
+#sidebar-container.active {
+  transform: translateX(0);
+}
+
+#main-content {
+  transition: margin-left 0.3s ease-in-out;
+}
+
+
+/* sidebar */
+.sidebar {
+    width: 100%;
+    max-width: 320px;
+    background: white;
+    height: 100vh;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  .logo {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .logo img {
+    height: 50px;
+  }
+  .logo-text {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #00AAE7;
+  }
+  .menu-section {
+    margin-top: 20px;
+  }
+  .menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    color: #333;
+  }
+  .menu-item i {
+    margin-right: 10px;
+    color: #00AAE7;
+  }
+  .bottom-section {
+    margin-top: 30px;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  .buttons button {
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .buttons button i {
+    margin-right: 5px;
+  }
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-size: 20px;
+    color: #00AAE7;
+    margin-top: 10px;
+  }
+  .footer-links {
+    font-size: 12px;
+    color: #aaa;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .active {
+    color: #007bff; /* Change this to your desired active color */
+    font-weight: bold; /* Optional: make the text bold */
+}
+.appointment-time {
+  background-color: #00b0e0;
+  color: white;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 0.85rem;
+}
+
+.row-radius1 {
+  border-radius: 0 0 0 55%;
+}
+
+
+.bg-my-appoint {
+  background-image: var(--bg-my-appoint);
+  background-size: cover; 
+  background-position: center center; 
+  background-repeat: no-repeat; 
+  height: 300px; 
+  width: 100%; 
+}
+
+.bg-img-profile {
+  background-image: var(--bg-my-profile);
+  background-size: cover; 
+  background-position: center center; 
+  background-repeat: no-repeat; 
+  height: 300px; 
+  width: 100%; 
+}
+
+.bg-img-medical {
+  background-image: var(--bg-my-medical);
+  background-size: cover; 
+  background-position: center center; 
+  background-repeat: no-repeat; 
+  height: 300px; 
+  width: 100%; 
+}
+
+.bg-img-head {
+  background-image: var(--bg-img-head);
+  background-size: cover; 
+  background-position: center center; 
+  background-repeat: no-repeat; 
+  height: 300px; 
+  width: 100%; 
+}
+
+.bg-img-dept {
+  background-image: var(--bg-img-dept);
+  background-size: cover; 
+  background-position: center center; 
+  background-repeat: no-repeat; 
+  height: 300px; 
+  width: 100%; 
+}
+
+

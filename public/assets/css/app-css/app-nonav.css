@@ -1,0 +1,338 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 100px;
+  }
+  /* login design =========================== */
+  .login-container {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: .5rem 1rem;
+    border: 2px solid #ddd;
+    border-radius: 25px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .login-header {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .login-header img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .form-control {
+    border-radius: 12px;
+  }
+  
+  .login-btn {
+    width: 100%;
+    border-radius: 25px;
+  }
+  
+  .alt-login {
+    text-align: center;
+    margin: 1rem 0;
+    color: gray;
+  }
+  
+  .icon-options .card {
+    border-radius: 15px;
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .icon-options img {
+    width: 30px;
+  }
+  
+  .open-file-btn {
+    border-radius: 20px;
+    border: 2px solid #28a745;
+    background-color: white;
+    color: #28a745;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+  }
+  
+  .lang-link {
+    font-size: 0.9rem;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .fingerprint {
+    background-color: #1ab26b;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: 10px;
+  }
+  .header-icon {
+    width: 60px;
+    margin-bottom: 10px;
+  }
+  .main-btn {
+    background-color: #1caa64;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  .branches-title {
+    font-weight: 600;
+    font-size: 18px;
+    margin: 20px 0 10px;
+    text-align: center;
+  }
+  .branch-img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 5px;
+  }
+  .branch-label {
+    font-size: 14px;
+  }
+  .branch-item {
+    flex: 0 0 33.33%;
+    padding: 10px 0;
+  }
+  
+  .bottom-nav {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ffffff;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    z-index: 1000;
+    position: fixed;
+  }
+  
+  .bottom-nav .nav-item {
+    flex: 1;
+    padding-top: 10px;
+    color: #888;
+  }
+  
+  .bottom-nav .nav-item.active {
+    color: #00AAE7;
+  }
+  
+  .center-button {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #00AAE7;
+    border-radius: 50%;
+    padding: 5px;
+    z-index: 20;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .center-button img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .mobile-container {
+    max-width: 430px;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .appointment-card {
+    padding: 20px;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .section-title {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .hospital-box {
+    background: #f0f4f8;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .hospital-box span {
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  .specialty-search input {
+    border-radius: 10px 0 0 10px;
+    font-size: 14px;
+  }
+  
+  .specialty-search button {
+    border-radius: 0 10px 10px 0;
+    font-size: 14px;
+  }
+  
+  .specialty-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 20px;
+  }
+  
+  .specialty-item {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 10px 6px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    font-size: 13px;
+    color: #007b8e;
+    line-height: 1.2;
+  }
+  
+  .specialty-item:hover {
+    background-color: #e6f7fa;
+  }
+  
+  /* select appointment design ================*/
+  .mobile-container {
+    max-width: 430px;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .appointment-card {
+    padding: 20px;
+    border-radius: 12px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .section-title {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .hospital-box {
+    background: #f0f4f8;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .hospital-box span {
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  .specialty-search input {
+    border-radius: 10px 0 0 10px;
+    font-size: 14px;
+  }
+  
+  .specialty-search button {
+    border-radius: 0 10px 10px 0;
+    font-size: 14px;
+  }
+  
+  .specialty-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-top: 20px;
+  }
+  
+  .specialty-item {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 10px 6px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    font-size: 13px;
+    color: #007b8e;
+    line-height: 1.2;
+  }
+  
+  .specialty-item:hover {
+    background-color: #e6f7fa;
+  }
+  
+  /* Appointment Type Design ======================================== */
+  
+  .section {
+    padding: 20px 15px;
+    max-width: 480px;
+    margin: auto;
+  }
+  .form-label {
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 4px;
+  }
+  .form-control,
+  .form-select {
+    border-radius: 12px;
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+  .doctor-card {
+    border-radius: 15px;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  }
+  .doctor-name {
+    color: #007b8e;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 4px;
+  }
+  .appointment-time {
+    background-color: #00b0e0;
+    color: white;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 0.85rem;
+  }
+  .nearest-tag {
+    font-size: 0.75rem;
+    color: #00b0e0;
+    font-weight: 500;
+  }
+  .input-group button {
+    font-size: 1.2rem;
+    padding: 0 10px;
+  }
+  h5 {
+    font-size: 1.2rem;
+  }
+  .icon-container{
+    color: green;
+    font-size: 2rem; /* Adjust size here */
+  }
+  
